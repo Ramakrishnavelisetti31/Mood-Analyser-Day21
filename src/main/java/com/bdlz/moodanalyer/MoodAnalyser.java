@@ -1,6 +1,23 @@
 package com.bdlz.moodanalyer;
 
 public class MoodAnalyser {
+    private String message;
+
+    public MoodAnalyser(String message) {
+        this.message = message;
+    }
+
+    public MoodAnalyser() {
+
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 
     public String analyseMood(String message) {
 
